@@ -1,0 +1,15 @@
+{
+  "originHash" : "3500ce62901f568dfe47a6ddabafe49e0c491eb9dd011a23dd8d59a3d7da9f92",
+  "pins" : [
+    {
+      "identity" : "floatingpanel",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/WillBishop/FloatingPanel",
+      "state" : {
+        "branch" : "master",
+        "revision" : "7b57218ea24966287c907d84889fe9577e4fc567"
+      }
+    }
+  ],
+  "version" : 3
+}

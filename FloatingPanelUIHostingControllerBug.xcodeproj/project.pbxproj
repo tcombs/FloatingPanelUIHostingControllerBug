@@ -6,6 +6,10 @@
 	objectVersion = 74;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2F8C64832C516A2D00B0529A /* FloatingPanel in Frameworks */ = {isa = PBXBuildFile; productRef = 2F8C64822C516A2D00B0529A /* FloatingPanel */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		2F8C64622C51662300B0529A /* FloatingPanelUIHostingControllerBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloatingPanelUIHostingControllerBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -42,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F8C64832C516A2D00B0529A /* FloatingPanel in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +89,7 @@
 			);
 			name = FloatingPanelUIHostingControllerBug;
 			packageProductDependencies = (
+				2F8C64822C516A2D00B0529A /* FloatingPanel */,
 			);
 			productName = FloatingPanelUIHostingControllerBug;
 			productReference = 2F8C64622C51662300B0529A /* FloatingPanelUIHostingControllerBug.app */;
@@ -112,6 +118,9 @@
 				Base,
 			);
 			mainGroup = 2F8C64592C51662300B0529A;
+			packageReferences = (
+				2F8C64812C516A2D00B0529A /* XCRemoteSwiftPackageReference "FloatingPanel" */,
+			);
 			preferredProjectObjectVersion = 60;
 			productRefGroup = 2F8C64632C51662300B0529A /* Products */;
 			projectDirPath = "";
@@ -342,6 +351,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2F8C64812C516A2D00B0529A /* XCRemoteSwiftPackageReference "FloatingPanel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WillBishop/FloatingPanel";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2F8C64822C516A2D00B0529A /* FloatingPanel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2F8C64812C516A2D00B0529A /* XCRemoteSwiftPackageReference "FloatingPanel" */;
+			productName = FloatingPanel;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2F8C645A2C51662300B0529A /* Project object */;
 }

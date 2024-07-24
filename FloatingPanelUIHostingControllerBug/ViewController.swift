@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  FloatingPanelUIHostingControllerBug
-//
-//  Created by Tyler Combs on 7/24/24.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
@@ -15,5 +8,10 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func navigate(_ sender: Any) {
+        let view = HostingControllerExampleView()
+        let hostingViewController = MyUIHostingController(rootView: view)
+        self.navigationController?.pushViewController(hostingViewController, animated: true)
+    }
 }
 

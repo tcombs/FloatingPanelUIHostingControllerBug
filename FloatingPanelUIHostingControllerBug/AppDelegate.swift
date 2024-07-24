@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  FloatingPanelUIHostingControllerBug
-//
-//  Created by Tyler Combs on 7/24/24.
-//
-
 import UIKit
 
 @main

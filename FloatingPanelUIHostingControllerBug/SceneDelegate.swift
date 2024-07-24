@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  FloatingPanelUIHostingControllerBug
-//
-//  Created by Tyler Combs on 7/24/24.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
